@@ -1,0 +1,12 @@
+* {
+  margin: 20;
+  box-sizing: border-box;
+}
+
+html, body {
+  
+}
+
+canvas {
+  background-color: #000000;
+}
