@@ -1,0 +1,28 @@
+{
+  "name": "tesla-particles",
+  "version": "1.0.0",
+  "description": "A simple Tesla Particles project with HTML5 Canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/app.js dist/bundle.js",
+    "dev": "NODE_ENV=dev webpack",
+    "prod": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/Guillaume-duclos/canvas-project"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Guillaume Duclos",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0"
+  }
+}
